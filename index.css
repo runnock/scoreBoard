@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: #1b244a;
+    text-align:center;
+    max-width: 400px;
+}
+
+@font-face {
+    font-family: digital;
+    src: url("/digital-7.regular.ttf")
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #eeeeee;
+}
+
+h3 {
+    margin: 10px 0px 2px 0px;
+    font-size: 25px;
+}
+
+.score {
+    text-align: center;
+    padding: 4px 30px;
+    color:#F94F6D;
+    font-size: 80px;
+    margin:5px 0px 10px 0px;
+    background-color: black;
+    border-radius:4px;
+    font-family: digital;
+}
+
+.foul {
+     text-align: center;
+    padding: 4px 20px;
+    color:#F94F6D;
+    font-size: 20px;
+    margin:5px 0px 10px 0px;
+    background-color: black;
+    border-radius:4px;
+    font-family: digital;
+}
+
+#new-game-btn {
+    width:30px;
+    font-size:10px;
+    text-align: center;
+    padding: 5px;
+    margin: 7px -90px;
+}
+
+.foul-btns {
+    width: 50px;
+    padding: 2px 3px;
+    text-align: center;
+    
+    
+}
+
+button {
+    background-color: #1b244a;
+    border: 1px solid #9AABD8;
+    border-radius: 4px;
+    padding: 6px 8px;
+    font-family: digital;
+    color: #9AABD8;
+    font-size: 18px;
+    margin-top: 6px;
+    width:30px;
+}
+
